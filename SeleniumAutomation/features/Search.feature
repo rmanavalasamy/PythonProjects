@@ -1,7 +1,7 @@
 Feature: Search
     Search Google and Yahoo
 
-@search
+@Smoke
 Scenario: Search Google
     Given Open Google Search Page
     When I do search
