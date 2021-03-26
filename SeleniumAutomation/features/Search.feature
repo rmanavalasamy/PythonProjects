@@ -8,6 +8,6 @@ Scenario: Search Google
     And I click Result
 
 
-@search
+@Regression
 Scenario: Search Yahoo
     Given Open Yahoo Search Page
