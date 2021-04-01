@@ -5,8 +5,8 @@ from SeleniumAutomation.helpers.helper_web import get_browser
 
 def before_all(context):
     config = ConfigParser()
-    print((os.path.join(os.getcwd(), 'setup.cfg')))
-    my_file = (os.path.join(os.getcwd(), 'setup.cfg'))
+    print((os.path.join(os.getcwd(), 'SeleniumAutomation\\setup.cfg')))
+    my_file = (os.path.join(os.getcwd(), 'SeleniumAutomation\\setup.cfg'))
     config.read(my_file)
 
     # Reading the browser type from the configuration file for Selenium Python Tutorial
